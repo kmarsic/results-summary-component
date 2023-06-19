@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Alt text](/solution_png/mobile_design.png?raw=true "Mobile")
+![Alt text](/solution_png/desktop_design.png?raw=true "Desktop")
 
 ### Links
 
