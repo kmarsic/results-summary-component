@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:[](https://kmarsic.github.io/results-summary-component/)
+- Solution URL: (https://kmarsic.github.io/results-summary-component/)
 
 ## My process
 
@@ -56,7 +56,7 @@ In future projects, I'd like to perfect using flexbox and grid to create clean a
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/kmarsic)
 - LinkedIn - (https://www.linkedin.com/in/kristijan-mar%C5%A1i%C4%87-300447277/))
 
 
