@@ -1,0 +1,190 @@
+@import "base/colors.scss";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'hanken_groteskregular', Arial, sans-serif;
+    margin:0;
+
+}
+
+.result-col {
+    background-image: linear-gradient(180deg, $Light_slate_blue 0%, $Light_royal_blue 100%);
+    color:$White;
+    display:flex;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0 0em 1.5em 1.5em ;
+    
+    h2 {
+            opacity:0.8;
+        }
+    
+}
+
+#circle {
+    margin: 0 auto;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: linear-gradient(180deg, $Violet_blue 0%, $Persian_blue 100%);
+}
+ 
+.circle-res-num {
+        font-size: 4rem;
+        font-weight: bold;
+        margin-top:2rem;
+        margin-bottom:0;
+    }
+    
+.circle-total-num {
+        font-size: 1rem;
+        opacity: 0.5;
+        margin-top:0;
+    }
+
+.res-desc {
+    p {
+    opacity: 0.9;
+    margin: 2rem 1rem;
+    }
+}
+
+.summary-col {
+    padding:2rem;
+}
+
+.flex-row {
+    display:flex;
+    border-radius:0.5rem;
+    margin: 0.5rem 0;
+    min-width: 225px;
+    
+    p {
+        display:inline-block;
+        margin: 0;
+    }
+
+    div {
+        padding: 1rem;
+    }
+}
+
+.flex-left {
+    margin-right:auto;
+    font-weight: 300;
+    p {
+        margin: 0 0.5rem;
+    }
+}
+
+.flex-row.one {
+    background-color:hsl(0, 100%, 67%, 0.1);
+    color:$light_red;
+    
+}
+
+.flex-row.two {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color:$Orangey_yellow;
+}
+
+.flex-row.three {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color:$Green_teal;
+}
+
+.flex-row.four {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color:$Cobalt_blue;
+}
+
+.flex-right {
+    p {
+        color:black;
+        font-weight: bold;
+    }
+}
+
+.sum-total-num {
+    opacity:0.5;
+    
+}
+
+#continue-button {
+    display:block;
+    font-size: 1.25rem;
+    margin: 2rem auto;
+    color:$White;
+    width:100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color:$Dark_gray_blue;
+    cursor: pointer;
+    border: 1px solid $Dark_gray_blue;
+    
+}
+
+#continue-button:hover {
+    background-image: linear-gradient(180deg, $Light_slate_blue 0%, $Light_royal_blue 100%);
+    border: 1px solid $Light_royal_blue;
+}
+
+@media (min-width:640px) {
+    
+
+    .container {
+        position:relative;
+        height: 100vh;
+    }
+    .wrapper {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 15px #333;
+        border-radius: 1.5rem;
+        min-width: 600px;
+    }
+
+
+    .result-col {
+        border-radius: 1.5rem;
+    }
+
+    .summary-col {
+        flex-shrink:0;
+        flex-basis:50%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .flex-left, .flex-right {
+        display:flex;
+    }
+
+    #circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .circle-res-num {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom:0;
+        padding:0;
+        margin-top:2.5rem;
+    }
+        
+    .circle-total-num {
+        margin:0;
+        padding:0;
+        font-size: 1rem;
+        opacity: 0.5;
+    }   
+}
